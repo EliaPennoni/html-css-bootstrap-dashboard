@@ -1,5 +1,11 @@
-.logo {
+#logo {
     max-width: 120px;
+    
+}
+#logo-2 {
+    max-width: 120px;
+    height: 60px;
+    display: none;
 }
 
 header {
@@ -8,23 +14,33 @@ header {
 
 main {
     height: calc(100vh - 100px);
-   
+
 }
+
 aside {
-   width: 150px;
-   background-image:url(../img/sidebar-bg.png)
+    width: 150px;
+    background-image: url(../img/sidebar-bg.png)
 }
+
 section {
     width: calc(100% - 150px);
 }
 
 
 
-#icon-signals {
+/* #icon-signals {
     margin-right: 5px;
-}
+} */
 
 .badge {
-    background-color: #4e627c;
+    background-color: #165bba;
 }
 
+.table-logo {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+h2 {
+    background-color: #f7f7f7;
+}
