@@ -44,3 +44,22 @@ section {
 h2 {
     background-color: #f7f7f7;
 }
+
+/* media */
+
+@media screen and (max-width: 720px) {
+      .badge {
+        display: none;
+      }
+      .text {
+        display: none;
+      }
+      aside {
+        width: 70px;
+        
+      }
+      .logo {
+        display: none;
+      }
+}
+    
